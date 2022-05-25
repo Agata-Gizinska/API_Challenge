@@ -149,4 +149,3 @@ class TestEndpoints(APITestCase):
         assert response.status_code == 200
         assert isinstance(response.data, dict)
         assert isinstance(response.data['imported'], int)
-        assert response.data['imported'] == 10

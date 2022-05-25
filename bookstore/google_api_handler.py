@@ -15,9 +15,19 @@ def fetch_books(author, google_books_url=google_books):
     This function imports data about books for requested author from Google
     Books API.
     """
-    url = f"{google_books_url}/books/v1/volumes?q=+inauthor:{author}"
-    response = requests.get(url).text
-    google_books_data = json.loads(response)
+    fetch_size = 20
+    current_book = 0
+    total_books = 1
+
+    google_books_data = []
+    while current_book < total_books:
+        url = f"{google_books_url}/books/v1/volumes?q=+inauthor:{author}&" \
+              f"maxResults={fetch_size}&startIndex={current_book}"
+        response = requests.get(url).text
+        response_dict = json.dumps(response)
+        total_books = json.loads(response)['totalItems']
+        google_books_data += json.loads(response)['items']
+        current_book += fetch_size
 
     return google_books_data
 
@@ -28,16 +38,24 @@ def parse_google_books_into_db(google_books_data):
     based on these data and returns the number of imported books as
     a dictionary.
     """
-    for entry in google_books_data['items']:
-        image_links = entry['volumeInfo'].get('imageLinks')
+    for entry in google_books_data:
+        volume = entry['volumeInfo']
+        image_links = volume.get('imageLinks') if \
+                      'imageLinks' in volume else None
         thumbnail = image_links["thumbnail"] if image_links else None
         info = {"external_id": entry.get("id"),
-                "title": entry['volumeInfo'].get("title"),
-                "authors": entry['volumeInfo'].get("authors"),
-                "published_year": entry['volumeInfo'].get(
-                    "publishedDate")[0:4],
+                "title": volume.get("title"),
+                "authors": volume.get("authors"),
                 "thumbnail": thumbnail
                 }
+        pub_date = volume.get('publishedDate')
+        try:
+            info["published_year"] = int(pub_date)
+        except TypeError:
+            info["published_year"] = 0
+        except ValueError:
+            # info["published_year"] = int(pub_date[0:4])
+            info["published_year"] = pub_date[0:min(4, len(pub_date))]
         if info['authors']:
             for author in info['authors']:
                 try:
@@ -79,7 +97,7 @@ def parse_google_books_into_db(google_books_data):
         book.save()
 
     counter = {
-        "imported": len(google_books_data['items'])
+        "imported": len(google_books_data)
     }
 
     return counter

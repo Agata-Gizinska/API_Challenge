@@ -1,611 +1,302 @@
-{
-    "kind": "books#volumes",
-    "totalItems": 200,
-    "items": [
-        {
-            "kind": "books#volume",
-            "id": "Lo1gOgAACAAJ",
-            "etag": "kfRPOO1/r0o",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/Lo1gOgAACAAJ",
-            "volumeInfo": {
-                "title": "Metodologia bada\u0144 spo\u0142ecznych",
-                "authors": [
-                    "Stefan Nowak"
-                ],
-                "publishedDate": "2007",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "830114999X"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9788301149994"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
+[
+    {
+        "kind": "books#volume",
+        "id": "Z-zRzQEACAAJ",
+        "etag": "i0qIA1x0XKY",
+        "selfLink": "https: //www.googleapis.com/books/v1/volumes/Z-zRzQEACAAJ",
+        "volumeInfo": {
+            "title": "Apteka natury ma leki na wirusy",
+            "authors": [
+                "Zbigniew Tomasz Nowak"
+            ],
+            "publishedDate": "2020",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "8378649741"
                 },
-                "pageCount": 494,
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "language": "pl",
-                "previewLink": "http://books.google.pl/books?id=Lo1gOgAACAAJ&dq=inauthor:Nowak&hl=&cd=1&source=gbs_api",
-                "infoLink": "http://books.google.pl/books?id=Lo1gOgAACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Metodologia_bada%C5%84_spo%C5%82ecznych.html?hl=&id=Lo1gOgAACAAJ"
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9788378649748"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
             },
-            "saleInfo": {
-                "country": "PL",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
+            "printType": "BOOK",
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
             },
-            "accessInfo": {
-                "country": "PL",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=Lo1gOgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            }
+            "language": "pl",
+            "previewLink": "http://books.google.pl/books?id=Z-zRzQEACAAJ&dq=inauthor:Nowak&hl=&cd=2&source=gbs_api",
+            "infoLink": "http://books.google.pl/books?id=Z-zRzQEACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Apteka_natury_ma_leki_na_wirusy.html?hl=&id=Z-zRzQEACAAJ"
         },
-        {
-            "kind": "books#volume",
-            "id": "Z-zRzQEACAAJ",
-            "etag": "VA5+KX1mYck",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/Z-zRzQEACAAJ",
-            "volumeInfo": {
-                "title": "Apteka natury ma leki na wirusy",
-                "authors": [
-                    "Zbigniew Tomasz Nowak"
-                ],
-                "publishedDate": "2020",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "8378649741"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9788378649748"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "language": "pl",
-                "previewLink": "http://books.google.pl/books?id=Z-zRzQEACAAJ&dq=inauthor:Nowak&hl=&cd=2&source=gbs_api",
-                "infoLink": "http://books.google.pl/books?id=Z-zRzQEACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Apteka_natury_ma_leki_na_wirusy.html?hl=&id=Z-zRzQEACAAJ"
-            },
-            "saleInfo": {
-                "country": "PL",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "PL",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=Z-zRzQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            }
+        "saleInfo": {
+            "country": "PL",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
         },
-        {
-            "kind": "books#volume",
-            "id": "lZ1ynQAACAAJ",
-            "etag": "A9iQIH5VPcg",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/lZ1ynQAACAAJ",
-            "volumeInfo": {
-                "title": "Analiza sprawozda\u0144 finansowych",
-                "authors": [
-                    "Edward Nowak"
-                ],
-                "publishedDate": "2017",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "8320822564"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9788320822564"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "pageCount": 314,
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "language": "pl",
-                "previewLink": "http://books.google.pl/books?id=lZ1ynQAACAAJ&dq=inauthor:Nowak&hl=&cd=3&source=gbs_api",
-                "infoLink": "http://books.google.pl/books?id=lZ1ynQAACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Analiza_sprawozda%C5%84_finansowych.html?hl=&id=lZ1ynQAACAAJ"
+        "accessInfo": {
+            "country": "PL",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
             },
-            "saleInfo": {
-                "country": "PL",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
+            "pdf": {
+                "isAvailable": false
             },
-            "accessInfo": {
-                "country": "PL",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=lZ1ynQAACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "uxPGzQEACAAJ",
-            "etag": "xW2dYwFK810",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/uxPGzQEACAAJ",
-            "volumeInfo": {
-                "title": "Naturalne kuracje w przezi\u0119bieniu i grypie",
-                "authors": [
-                    "Zbigniew Tomasz Nowak"
-                ],
-                "publishedDate": "2020",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "8365758210"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9788365758217"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "language": "pl",
-                "previewLink": "http://books.google.pl/books?id=uxPGzQEACAAJ&dq=inauthor:Nowak&hl=&cd=4&source=gbs_api",
-                "infoLink": "http://books.google.pl/books?id=uxPGzQEACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Naturalne_kuracje_w_przezi%C4%99bieniu_i_gry.html?hl=&id=uxPGzQEACAAJ"
-            },
-            "saleInfo": {
-                "country": "PL",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "PL",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=uxPGzQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "AEqSNgAACAAJ",
-            "etag": "bo+875eXUWU",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/AEqSNgAACAAJ",
-            "volumeInfo": {
-                "title": "Zadania z analizy matematycznej",
-                "subtitle": "Liczby rzeczywiste, ci\u0105gi i szeregi liczbowe. T. 1",
-                "authors": [
-                    "Wies\u0142awa Kaczor",
-                    "Maria Nowak"
-                ],
-                "publishedDate": "2005",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "830114453X"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9788301144531"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "pageCount": 298,
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "language": "pl",
-                "previewLink": "http://books.google.pl/books?id=AEqSNgAACAAJ&dq=inauthor:Nowak&hl=&cd=5&source=gbs_api",
-                "infoLink": "http://books.google.pl/books?id=AEqSNgAACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Zadania_z_analizy_matematycznej.html?hl=&id=AEqSNgAACAAJ"
-            },
-            "saleInfo": {
-                "country": "PL",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "PL",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=AEqSNgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "epvqXwAACAAJ",
-            "etag": "Mypvc1Oalpo",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/epvqXwAACAAJ",
-            "volumeInfo": {
-                "title": "Teorie i koncepcje wychowania",
-                "authors": [
-                    "Marian Nowak"
-                ],
-                "publishedDate": "2010-01",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "8360501289"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9788360501283"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "pageCount": 583,
-                "printType": "BOOK",
-                "categories": [
-                    "Education"
-                ],
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "language": "pl",
-                "previewLink": "http://books.google.pl/books?id=epvqXwAACAAJ&dq=inauthor:Nowak&hl=&cd=6&source=gbs_api",
-                "infoLink": "http://books.google.pl/books?id=epvqXwAACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Teorie_i_koncepcje_wychowania.html?hl=&id=epvqXwAACAAJ"
-            },
-            "saleInfo": {
-                "country": "PL",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "PL",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=epvqXwAACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "ESQzrgEACAAJ",
-            "etag": "Mqhkb0hEL9s",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/ESQzrgEACAAJ",
-            "volumeInfo": {
-                "title": "Ziolowa apteka seniora",
-                "authors": [
-                    "Zbigniew T. Nowak"
-                ],
-                "publishedDate": "2014-01",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "8378647927"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9788378647928"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "pageCount": 288,
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "language": "pl",
-                "previewLink": "http://books.google.pl/books?id=ESQzrgEACAAJ&dq=inauthor:Nowak&hl=&cd=7&source=gbs_api",
-                "infoLink": "http://books.google.pl/books?id=ESQzrgEACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Ziolowa_apteka_seniora.html?hl=&id=ESQzrgEACAAJ"
-            },
-            "saleInfo": {
-                "country": "PL",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "PL",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=ESQzrgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "gfsbjgEACAAJ",
-            "etag": "QIdEbqnjWc0",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/gfsbjgEACAAJ",
-            "volumeInfo": {
-                "title": "Zarys teorii bezpieczenstwa narodowego",
-                "authors": [
-                    "Eugeniusz Nowak",
-                    "Maciej Nowak"
-                ],
-                "publishedDate": "2015-01",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "8379309065"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9788379309061"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "pageCount": 224,
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "language": "pl",
-                "previewLink": "http://books.google.pl/books?id=gfsbjgEACAAJ&dq=inauthor:Nowak&hl=&cd=8&source=gbs_api",
-                "infoLink": "http://books.google.pl/books?id=gfsbjgEACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Zarys_teorii_bezpieczenstwa_narodowego.html?hl=&id=gfsbjgEACAAJ"
-            },
-            "saleInfo": {
-                "country": "PL",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "PL",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=gfsbjgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "27U7rgEACAAJ",
-            "etag": "o899gpOdhNI",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/27U7rgEACAAJ",
-            "volumeInfo": {
-                "title": "Podstawy kompleksowej rehabilitacji kardiologicznej",
-                "authors": [
-                    "Zbigniew Nowak"
-                ],
-                "publishedDate": "2015-01",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "8320049113"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9788320049114"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "pageCount": 154,
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "language": "pl",
-                "previewLink": "http://books.google.pl/books?id=27U7rgEACAAJ&dq=inauthor:Nowak&hl=&cd=9&source=gbs_api",
-                "infoLink": "http://books.google.pl/books?id=27U7rgEACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Podstawy_kompleksowej_rehabilitacji_kard.html?hl=&id=27U7rgEACAAJ"
-            },
-            "saleInfo": {
-                "country": "PL",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "PL",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=27U7rgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            }
-        },
-        {
-            "kind": "books#volume",
-            "id": "YXrIRDuAbE0C",
-            "etag": "ouO+LFETwZw",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/YXrIRDuAbE0C",
-            "volumeInfo": {
-                "title": "Evolutionary Dynamics",
-                "subtitle": "Exploring the Equations of Life",
-                "authors": [
-                    "Martin A. Nowak"
-                ],
-                "publisher": "Harvard University Press",
-                "publishedDate": "2006-09-29",
-                "description": "Draws on the languages of biology and mathematics to outline the mathematical principles according to which life evolves in an intriguing study that makes a clear and compelling case for understanding every living system in terms of evolutionary dynamics.",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "0674023382"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9780674023383"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": true
-                },
-                "pageCount": 363,
-                "printType": "BOOK",
-                "categories": [
-                    "Science"
-                ],
-                "averageRating": 4.5,
-                "ratingsCount": 5,
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "1.2.2.0.preview.1",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=YXrIRDuAbE0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=YXrIRDuAbE0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "en",
-                "previewLink": "http://books.google.pl/books?id=YXrIRDuAbE0C&printsec=frontcover&dq=inauthor:Nowak&hl=&cd=10&source=gbs_api",
-                "infoLink": "http://books.google.pl/books?id=YXrIRDuAbE0C&dq=inauthor:Nowak&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Evolutionary_Dynamics.html?hl=&id=YXrIRDuAbE0C"
-            },
-            "saleInfo": {
-                "country": "PL",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "PL",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=YXrIRDuAbE0C&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "Draws on the languages of biology and mathematics to outline the mathematical principles according to which life evolves in an intriguing study that makes a clear and compelling case for understanding every living system in terms of ..."
-            }
+            "webReaderLink": "http://play.google.com/books/reader?id=Z-zRzQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
         }
-    ]
-}
+    },
+    {
+        "kind": "books#volume",
+        "id": "lZ1ynQAACAAJ",
+        "etag": "BFXaqHLi/1A",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/lZ1ynQAACAAJ",
+        "volumeInfo": {
+            "title": "Analiza sprawozda\u0144 finansowych",
+            "authors": [
+                "Edward Nowak"
+            ],
+            "publishedDate": "2017",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "8320822564"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9788320822564"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 314,
+            "printType": "BOOK",
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "language": "pl",
+            "previewLink": "http://books.google.pl/books?id=lZ1ynQAACAAJ&dq=inauthor:Nowak&hl=&cd=3&source=gbs_api",
+            "infoLink": "http://books.google.pl/books?id=lZ1ynQAACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Analiza_sprawozda%C5%84_finansowych.html?hl=&id=lZ1ynQAACAAJ"
+        },
+        "saleInfo": {
+            "country": "PL",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PL",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=lZ1ynQAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "uxPGzQEACAAJ",
+        "etag": "0nEPwxpwuS4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/uxPGzQEACAAJ",
+        "volumeInfo": {
+            "title": "Naturalne kuracje w przezi\u0119bieniu i grypie",
+            "authors": [
+                "Zbigniew Tomasz Nowak"
+            ],
+            "publishedDate": "2020",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "8365758210"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9788365758217"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "printType": "BOOK",
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "language": "pl",
+            "previewLink": "http://books.google.pl/books?id=uxPGzQEACAAJ&dq=inauthor:Nowak&hl=&cd=4&source=gbs_api",
+            "infoLink": "http://books.google.pl/books?id=uxPGzQEACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Naturalne_kuracje_w_przezi%C4%99bieniu_i_gry.html?hl=&id=uxPGzQEACAAJ"
+        },
+        "saleInfo": {
+            "country": "PL",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PL",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=uxPGzQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "AEqSNgAACAAJ",
+        "etag": "TVBlSnLXEBA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/AEqSNgAACAAJ",
+        "volumeInfo": {
+            "title": "Zadania z analizy matematycznej",
+            "subtitle": "Liczby rzeczywiste, ci\u0105gi i szeregi liczbowe. T. 1",
+            "authors": [
+                "Wies\u0142awa Kaczor",
+                "Maria Nowak"
+            ],
+            "publishedDate": "2005",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "830114453X"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9788301144531"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 298,
+            "printType": "BOOK",
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "pl",
+            "previewLink": "http: //books.google.pl/books?id=AEqSNgAACAAJ&dq=inauthor:Nowak&hl=&cd=5&source=gbs_api",
+            "infoLink": "http://books.google.pl/books?id=AEqSNgAACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Zadania_z_analizy_matematycznej.html?hl=&id=AEqSNgAACAAJ"
+        },
+        "saleInfo": {
+            "country": "PL",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PL",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=AEqSNgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "epvqXwAACAAJ",
+        "etag": "EzQo+lbNkQA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/epvqXwAACAAJ",
+        "volumeInfo": {
+            "title": "Teorie i koncepcje wychowania",
+            "authors": [
+                "Marian Nowak"
+            ],
+            "publishedDate": "2010-01",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "8360501289"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9788360501283"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 583,
+            "printType": "BOOK",
+            "categories": [
+                "Education"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "pl",
+            "previewLink": "http://books.google.pl/books?id=epvqXwAACAAJ&dq=inauthor:Nowak&hl=&cd=6&source=gbs_api",
+            "infoLink": "http://books.google.pl/books?id=epvqXwAACAAJ&dq=inauthor:Nowak&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Teorie_i_koncepcje_wychowania.html?hl=&id=epvqXwAACAAJ"
+        },
+        "saleInfo": {
+            "country": "PL",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "PL",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=epvqXwAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    }
+]
