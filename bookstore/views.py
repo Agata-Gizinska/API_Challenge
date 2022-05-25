@@ -51,8 +51,6 @@ class APISpec(APIView):
         return Response(app_version)
 
 
-# GET /books
-# POST /books
 class Books(generics.ListCreateAPIView):
     """
     A class for GET /books and POST /books view.
