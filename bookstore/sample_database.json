@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "external_id": "k-3hmAssaJa",
+        "title": "Opowiastki",
+        "authors": [
+            "Marek Nowak",
+            "Katarzyna Nowak"
+        ],
+        "acquired": false,
+        "published_year": 2012,
+        "thumbnail": null
+    },
+    {
+        "id": 2,
+        "external_id": null,
+        "title": "Opowiadania",
+        "authors": [
+            "Marek Nowak"
+        ],
+        "acquired": false,
+        "published_year": 2021,
+        "thumbnail": null
+    },
+    {
+        "id": 3,
+        "external_id": "los-09SdreaB",
+        "title": "Opowiastki - new edition",
+        "authors": [
+            "Marek Nowak"
+        ],
+        "acquired": true,
+        "published_year": 2022,
+        "thumbnail": null
+    }
+]
