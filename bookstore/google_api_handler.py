@@ -54,8 +54,10 @@ def parse_google_books_into_db(google_books_data):
         except TypeError:
             info["published_year"] = 0
         except ValueError:
-            # info["published_year"] = int(pub_date[0:4])
-            info["published_year"] = pub_date[0:min(4, len(pub_date))]
+            if pub_date[0:min(4, len(pub_date))].isalnum():
+                info["published_year"] = pub_date[0:min(4, len(pub_date))]
+            else:
+                info["published_year"] = 0
         if info['authors']:
             for author in info['authors']:
                 try:

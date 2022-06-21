@@ -84,7 +84,7 @@ def get_book_details(requested_id):
     if book:
         return book
     else:
-        return Http404
+        return None
 
 
 def get_books_by_authors(authors, queryset=Book.objects):

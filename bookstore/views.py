@@ -14,6 +14,7 @@ from api_challenge.settings import app_version
 from .serializers import BookSerializer
 from .google_api_handler import fetch_books, parse_google_books_into_db
 from .book_queries import get_books, get_book_details
+from .exceptions import InvalidId
 
 
 def home(request):
@@ -96,22 +97,16 @@ class BookDetails(generics.RetrieveUpdateDestroyAPIView):
     def retrieve(self, request, *args, **kwargs):
         """A method for GET /books/<id>."""
         book = get_book_details(kwargs)
-        if book == Http404:
-            response = {
-                "message": f"There is no book with id {kwargs['id']}"
-            }
-            return Response(response)
+        if book is None:
+            raise InvalidId
         serializer = BookSerializer(book)
         return Response(serializer.data)
 
     def patch(self, request, *args, **kwargs):
         """A method for PATCH /books/<id>."""
         book = get_book_details(kwargs)
-        if book == Http404:
-            response = {
-                "message": f"There is no book with id {kwargs['id']}"
-            }
-            return Response(response)
+        if book is None:
+            raise InvalidId
         updated_value = request.data
         book.acquired = updated_value.get('acquired')
         book.save()
@@ -121,8 +116,8 @@ class BookDetails(generics.RetrieveUpdateDestroyAPIView):
     def destroy(self, request, *args, **kwargs):
         """A method for DELETE /books/<id>."""
         instance = get_book_details(kwargs)
-        if instance == Http404:
-            return Response(status=status.HTTP_404_NOT_FOUND)
+        if instance is None:
+            raise InvalidId
         self.perform_destroy(instance)
         return Response(status=status.HTTP_204_NO_CONTENT)
 
